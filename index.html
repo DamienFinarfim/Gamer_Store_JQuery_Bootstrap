@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/owl/css/owl.css">
+    <link rel="stylesheet" href="./vendor/fontawesome/fontawesome.css">
+    <link rel="stylesheet" href="./vendor/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>WsbStore - Loja especialida em artigos de informatica</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-modal-open" href="#sobre" rel="sobre">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-modal-open" href="#contato" rel="contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="caption">
+                        <h2>Sua melhor loja gamer</h2>
+                        <div class="line-dec"></div>
+                        <p>Possuimos uma grande diversidade de produtos para todo publico gamer com os melhores preços.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="featured" class="featured-items">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h1>Produtos em Destaque</h1>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="featured-item">
+                            <img src="./assets/luminaria.jpg" alt="Item 1">
+                            <h4>Luminaria Gamer</h4>
+                            <h6>R$ 120,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/cadeira.jpg" alt="Item 2">
+                            <h4>Cadeira Gamer Pichau Donek 2</h4>
+                            <h6>R$ 898,90</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/caixa_de_som.jpg" alt="Item 3">
+                            <h4>Caixa de Som Edfier</h4>
+                            <h6>R$ 709,99</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/headset.jpg" alt="Item 4">
+                            <h4>Headset Logitech</h4>
+                            <h6>R$ 1.298,90</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/mesa.jpg" alt="Item 5">
+                            <h4>Mesa Gamer ThunderX3</h4>
+                            <h6>R$ 1.119,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/mouse.jpg" alt="Item 6">
+                            <h4>Mouse Razer Elite</h4>
+                            <h6>R$ 430,09</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/mousepad.jpg" alt="Item 7">
+                            <h4>Mousepad Redragon</h4>
+                            <h6>R$ 115,40</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/suporte.jpg" alt="Item 8">
+                            <h4>Suporte para monitor ELG</h4>
+                            <h6>R$ 199,90</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/teclado.jpg" alt="Item 9">
+                            <h4>Teclado Gamer Hyperx</h4>
+                            <h6>R$ 382,90</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <h1>Receba novidades</h1>
+        </div>
+    </div>
+    <div class="col-md-8 offset-md-2">
+        <div class="main-content">
+            <p>* Insira seus e-mail abaixo para receber informações atualizadas de nossos produtos</p>
+            <div class="container">
+                <form id="subscribe"  class="form" action="" method="get">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <fieldset>
+                                <input name="email" type="text" class="form-control" id="email"placeholder="Seu e-mail...">
+                            </fieldset>
+                        </div>
+                        <div class="col-md-5">
+                            <fieldset>
+                                <button class="bt bt-az" type="submit" id="form-submit" class="button">Inscreva-se</button>
+                            </fieldset>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo">
+                        <img src="assets/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#top">Home</a></li>
+                            <li><a href="#produtos">Produtos</a></li>
+                            <li><a href="#sobre" rel="sobre" class="nav-modal-open">Sobre</a></li>
+                            <li><a href="#contato" rel="contato" class="nav-modal-open">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright-text">
+                        <p>WebStore &copy; Todos os direitos reservados
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contato</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+        <div id="contato" class="visually-hidden">
+            <form action="post" class="form">
+
+                <div class="mb-3">
+                    <form method="post" action="" onSubmit="return ( validar() )" id="formulario" name="formulario">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" name="nome" id="nome" class="form-control" onblur="validar()" placeholder="Digite seu nome" arial-describedby="helpNome">
+                        <small id="helpNome" class="text-muted">
+                            Digite um nome válido
+                        </small>
+                        <script>
+                            function validar(){
+                              var nome = document.getElementById("nome").checked;
+                              if (nome.value == "") {
+                                alert("Nome não informado");
+                                nome.focus();
+                                return;
+                              }
+                              alert("Informe seu nome");
+                            }
+                          </script>
+                    </form>
+                </div>
+
+                <div class="mb-3">
+                    <form method="post" action="" onSubmit="return ( verifica() )" name="frmEnvia">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" name="email" id="email" class="form-control" onblur="checarEmail();" onblur="verifica();" placeholder="Digite seu e-mail" arial-describedby="helpEmail">
+                        <small id="helpEmail" class="text-muted">
+                            Digite um e-mail válido
+                        </small>
+                    </form>
+                        <script type="text/javascript">
+                            function verifica() {
+                            if (document.forms[0].email.value.length == 0) {
+                                alert('Informe o seu EMAIL.');
+                                document.frmEnvia.email.focus();
+                                return false;
+                            }
+                            return true;
+                            }
+                            function checarEmail(){
+                            if( document.forms[0].email.value=="" 
+                            || document.forms[0].email.value.indexOf('@')==-1 
+                                || document.forms[0].email.value.indexOf('.')==-1 )
+                                {
+                                alert( "Informe um EMAIL válido!" );
+                                return false;
+                                }
+                            }
+                        </script>
+                    </div>
+                
+                <div class="mb-3">
+                    <label for="date" class="form-label">Data</label>
+                    <input type="text" name="date" id="date" class="form-control" placeholder="Digite uma data" arial-describedby="helpDate">
+                    <small id="helpDate" class="text-muted">
+                        Digite uma data válida
+                    </small>
+                </div>
+
+                <div class="mb-3">
+                    <label for="time" class="form-label">Hora</label>
+                    <input type="text" name="time" id="time" class="form-control" placeholder="Digite a hora" arial-describedby="helpTime">
+                    <small id="helpTime" class="text-muted">
+                        Digite uma hora válida
+                    </small>
+                </div>
+
+                <div class="mb-3">
+                    <label for="cep" class="form-label">CEP</label>
+                    <input type="text" name="cep" id="cep" class="form-control" placeholder="Digite seu CEP" arial-describedby="helpCep">
+                    <small id="helpCep" class="text-muted">
+                        Digite seu CEP válido
+                    </small>
+                </div>
+
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Celular</label>
+                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Digite seu número celular" arial-describedby="helpPhone">
+                    <small id="helpPhone" class="text-muted">
+                        Digite um número celular válido
+                    </small>
+                </div>
+
+                <div class="mb-3">
+                    <label for="cpf" class="form-label">CPF</label>
+                    <input type="text" name="cpf" id="cpf" class="form-control" placeholder="Digite seu CPF" required arial-describedby="helpCPF">
+                    
+                    <small id="helpCPF" class="text-muted">
+                        Digite um CPF válido
+                    </small>
+                    <script language="javascript">
+                        function valida(){
+                            if(valida_cpf(document.getElementById('cpf').value))
+                                alert('CPF Válido');
+                            else
+                                alert('Digite um número de CPF válido');
+                        }
+			
+			            function valida_cpf(cpf){
+				            var numeros, digitos, soma, i, resultado, digitos_iguais;
+				            digitos_iguais = 1;
+				            if (cpf.length < 11)
+						        return false;
+				            for (i = 0; i < cpf.length - 1; i++)
+						        if (cpf.charAt(i) != cpf.charAt(i + 1))
+							        {
+							        digitos_iguais = 0;
+							        break;
+							        }
+                            if (!digitos_iguais)
+                                    {
+                                    numeros = cpf.substring(0,9);
+                                    digitos = cpf.substring(9);
+                                    soma = 0;
+                                    for (i = 10; i > 1; i--)
+                                        soma += numeros.charAt(10 - i) * i;
+                                    resultado = soma % 11 < 2 ? 0 : 11 - soma % 11;
+                                    if (resultado != digitos.charAt(0))
+                                        return false;
+                                    numeros = cpf.substring(0,10);
+                                    soma = 0;
+                                    for (i = 11; i > 1; i--)
+                                        soma += numeros.charAt(11 - i) * i;
+                                    resultado = soma % 11 < 2 ? 0 : 11 - soma % 11;
+                                    if (resultado != digitos.charAt(1))
+                                        return false;
+                                    return true;
+                                    }
+                                    else
+                                    return false;
+                                    }
+		                </script>
+                </div>
+                <button name="validar, submit" id="validar, submit" value="Validar CPF" onClick="valida(), validar(), checarEmail()" type="submit, button" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <div id="sobre" class="visually-hidden">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error totam ab delectus libero quidem, porro nobis quam velit numquam natus impedit officiis vitae laboriosam id, similique, suscipit pariatur vel dolorum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, amet doloribus deleniti placeat sit iste numquam fugit rem blanditiis reiciendis veritatis modi omnis ratione architecto beatae, nesciunt vel nihil officiis.</p>
+    </div>
+    <!-- Bibliotecas -->
+    <script src="./vendor/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./vendor/owl/js/owl.js"></script>
+    <script src="./vendor/jquery-mask/jquery.mask.min.js"></script>
+    <script src="./vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script src="./js/validate.js"></script>
+    <!-- Scripts Customizados -->
+    <script src="./js/custom.js"></script>
+</body>
+</html>
